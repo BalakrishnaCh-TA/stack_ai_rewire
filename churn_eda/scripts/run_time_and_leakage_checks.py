@@ -10,8 +10,8 @@ import sys
 from typing import Dict, Any
 import pandas as pd
 
-from eda.load import load_customers, load_monthly_agg, load_transactions
-from eda.profile import (
+from churn_eda.eda.load import load_customers, load_monthly_agg, load_transactions
+from churn_eda.eda.profile import (
     count_outliers,
     count_zero_activity_customers,
     profile_distribution,

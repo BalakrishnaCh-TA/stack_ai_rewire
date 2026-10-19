@@ -11,7 +11,7 @@ import numpy as np
 import pandas as pd
 import pytest
 
-from eda.hypotheses import (
+from churn_eda.eda.hypotheses import (
     run_monthly_spend_test,
     run_payment_method_test,
     run_tenure_months_test,

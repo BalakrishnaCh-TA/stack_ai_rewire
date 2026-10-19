@@ -9,7 +9,7 @@ not leave them skipped in your submission.
 import pandas as pd
 import pytest
 
-from eda.profile import (
+from churn_eda.eda.profile import (
     count_outliers,
     count_zero_activity_customers,
     profile_distribution,

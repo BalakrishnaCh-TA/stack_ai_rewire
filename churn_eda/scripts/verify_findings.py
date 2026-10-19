@@ -14,15 +14,15 @@ from typing import Any, Dict, List
 import numpy as np
 import pandas as pd
 
-from eda.hypotheses import (
+from churn_eda.eda.hypotheses import (
     test_monthly_spend,
     test_payment_method,
     test_tenure_months,
 )
-from eda.leakage_checks import check_no_post_as_of_rows_used, flag_label_circular_drivers
-from eda.load import load_customers, load_monthly_agg, load_transactions
-from eda.profile import count_zero_activity_customers, profile_schema
-from eda.time_checks import compare_row_level_vs_monthly_agg, monthly_volume_trend
+from churn_eda.eda.leakage_checks import check_no_post_as_of_rows_used, flag_label_circular_drivers
+from churn_eda.eda.load import load_customers, load_monthly_agg, load_transactions
+from churn_eda.eda.profile import count_zero_activity_customers, profile_schema
+from churn_eda.eda.time_checks import compare_row_level_vs_monthly_agg, monthly_volume_trend
 
 AS_OF_DATE = "2024-01-01"
 

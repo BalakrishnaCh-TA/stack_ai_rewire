@@ -9,8 +9,8 @@ import sys
 from typing import List, Dict, Any
 import pandas as pd
 
-from eda.load import load_customers, load_monthly_agg, load_transactions
-from eda.hypotheses import (
+from churn_eda.eda.load import load_customers, load_monthly_agg, load_transactions
+from churn_eda.eda.hypotheses import (
     run_monthly_spend_test,
     run_payment_method_test,
     run_tenure_months_test,

@@ -9,8 +9,8 @@ import datetime
 import pandas as pd
 import pytest
 
-from eda.leakage_checks import flag_label_circular_drivers
-from eda.time_checks import compare_row_level_vs_monthly_agg, monthly_volume_trend
+from churn_eda.eda.leakage_checks import flag_label_circular_drivers
+from churn_eda.eda.time_checks import compare_row_level_vs_monthly_agg, monthly_volume_trend
 
 
 def test_monthly_volume_trend_detects_growth():

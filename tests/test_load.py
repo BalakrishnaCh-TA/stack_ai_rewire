@@ -9,7 +9,7 @@ import datetime
 import pandas as pd
 import pytest
 
-from eda.load import load_customers, load_monthly_agg, load_transactions
+from churn_eda.eda.load import load_customers, load_monthly_agg, load_transactions
 
 
 def test_load_customers_schema_and_row_count():
